@@ -18,6 +18,7 @@ This is a simple weather app which provides you real time weather of anywhere an
 
 ## ⚙️ Features
 Main features are as follows:
+
 Real time weather of anywhere
 Save Your Favourite city.
 ## 📲 Screenshots
