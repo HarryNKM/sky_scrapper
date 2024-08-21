@@ -34,7 +34,7 @@ Upcoming birthday time calculation
 
 <div align="center">
 
-<img src="./assets/icons/logo.png" width="200px" height="200px">
+
 ### Made with ❤️ in India.
 ---
 ### You can show some respect by starring 🌟 the repository!
