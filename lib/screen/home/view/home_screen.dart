@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'package:weatherapp/screen/home/provider/home_provider.dart';
 import 'package:weatherapp/screen/nointernet/view/noInterNet_screen.dart';
 import 'package:weatherapp/utils/shared_pref.dart';
+import 'package:weatherapp/utils/theme_provider.dart';
 
 import '../model/home_modal.dart';
 
@@ -54,15 +55,22 @@ class _HomeScreenState extends State<HomeScreen> {
                       padding: const EdgeInsets.only(
                         top: 30,
                       ),
-                      decoration: const BoxDecoration(
-                        gradient: LinearGradient(
+                      decoration:  BoxDecoration(
+                        gradient: providerW!.themeMode==true?LinearGradient(
                           end: Alignment.bottomRight,
                           begin: Alignment.topLeft,
                           colors: [
                             Color(0xff97ABFF),
                             Color(0xff123597),
                           ],
-                        ),
+                        ):LinearGradient(
+                          end: Alignment.bottomRight,
+                          begin: Alignment.topLeft,
+                          colors: [
+                            Colors.black,
+                            Color(0xff123597),
+                          ],
+                        )
                       ),
                       child: SingleChildScrollView(
                         scrollDirection: Axis.vertical,

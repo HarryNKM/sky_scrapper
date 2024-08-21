@@ -40,7 +40,10 @@ class HomeProvider with ChangeNotifier {
   void deleteBookmark(int index)
   {
     l1.removeAt(index);
+    Bookmark b1=Bookmark();
+    b1.setBookMark(l1);
     notifyListeners();
+
   }
 
   void changeNavigationIndex(int index) {

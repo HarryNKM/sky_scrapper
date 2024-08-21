@@ -1,6 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:weatherapp/screen/bookmark/bookmark.dart';
+import 'package:weatherapp/screen/home/provider/home_provider.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -10,6 +13,8 @@ class SplashScreen extends StatefulWidget {
 }
 
 class _SplashScreenState extends State<SplashScreen> {
+  HomeProvider? providerR;
+  HomeProvider? providerW;
   @override
   void initState() {
     // TODO: implement initState
@@ -19,8 +24,11 @@ class _SplashScreenState extends State<SplashScreen> {
     });
   }
 
+
   @override
   Widget build(BuildContext context) {
+    providerW=context.watch<HomeProvider>();
+    providerR=context.read<HomeProvider>();
     return Scaffold(
       body: Container(
         height: MediaQuery.sizeOf(context).height,
@@ -31,15 +39,22 @@ class _SplashScreenState extends State<SplashScreen> {
           right: 12,
           bottom: 12,
         ),
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
+        decoration:  BoxDecoration(
+          gradient: providerW!.themeMode==true?LinearGradient(
             end: Alignment.bottomRight,
             begin: Alignment.topLeft,
             colors: [
               Color(0xff97ABFF),
               Color(0xff123597),
             ],
-          ),
+          ):LinearGradient(
+            end: Alignment.bottomRight,
+            begin: Alignment.topLeft,
+            colors: [
+              Colors.black,
+              Color(0xff123597),
+            ],
+          )
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

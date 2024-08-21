@@ -21,7 +21,6 @@ void main()
           routes: app_routes,
         );
       },
-
     ),
   ));
 }

@@ -2,7 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:weatherapp/screen/home/model/home_modal.dart';
+import 'package:weatherapp/screen/home/provider/home_provider.dart';
 
 class DetailScreen extends StatefulWidget {
   const DetailScreen({super.key});
@@ -12,9 +14,11 @@ class DetailScreen extends StatefulWidget {
 }
 
 class _DetailScreenState extends State<DetailScreen> {
+  HomeProvider? providerW;
   @override
   Widget build(BuildContext context) {
     HomeModal modal = ModalRoute.of(context)!.settings.arguments as HomeModal;
+    providerW=context.watch<HomeProvider>();
     return SafeArea(
       child: Scaffold(
         body: Container(
@@ -26,15 +30,22 @@ class _DetailScreenState extends State<DetailScreen> {
             right: 12,
             bottom: 12,
           ),
-          decoration: const BoxDecoration(
-            gradient: LinearGradient(
+          decoration:  BoxDecoration(
+            gradient: providerW!.themeMode==true?LinearGradient(
               end: Alignment.bottomRight,
               begin: Alignment.topLeft,
               colors: [
                 Color(0xff97ABFF),
                 Color(0xff123597),
               ],
-            ),
+            ):LinearGradient(
+              end: Alignment.bottomRight,
+              begin: Alignment.topLeft,
+              colors: [
+                Colors.black,
+                Color(0xff123597),
+              ],
+            )
           ),
           child: Column(
             children: [

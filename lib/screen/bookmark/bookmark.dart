@@ -38,15 +38,22 @@ class _BookMarkState extends State<BookMark> {
                     padding: const EdgeInsets.only(
                       top: 30,
                     ),
-                    decoration: const BoxDecoration(
-                      gradient: LinearGradient(
+                    decoration:  BoxDecoration(
+                      gradient: providerW!.themeMode==true?LinearGradient(
                         end: Alignment.bottomRight,
                         begin: Alignment.topLeft,
                         colors: [
                           Color(0xff97ABFF),
                           Color(0xff123597),
                         ],
-                      ),
+                      ):LinearGradient(
+                        end: Alignment.bottomRight,
+                        begin: Alignment.topLeft,
+                        colors: [
+                          Colors.black,
+                          Color(0xff123597),
+                        ],
+                      )
                     ),
                     child: Column(
                       children: [
