@@ -31,13 +31,13 @@ Upcoming birthday time calculation
 <br><br>
 
 
+<div align="center">
 
 
-
-<p>
+<br>
 ### Made with ❤️ in India.
 ---
 ### You can show some respect by starring 🌟 the repository!
 ---
-</p>
+<br>
   </div>
