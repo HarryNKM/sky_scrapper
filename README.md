@@ -19,7 +19,7 @@ This is a simple weather app which provides you real time weather of anywhere an
 ## ⚙️ Features
 Main features are as follows:
 Real time weather of anywhere
-Save Your Fac city.
+Save Your Favourite city.
 ## 📲 Screenshots
 <p>
 <img align="left" src="https://github.com/user-attachments/assets/94d0ebc4-581a-4125-ad62-bac4fd8d205e" width="220px">
