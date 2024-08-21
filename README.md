@@ -34,10 +34,10 @@ Upcoming birthday time calculation
 <div align="center">
 
 
-<br>
+
 ### Made with ❤️ in India.
 ---
 ### You can show some respect by starring 🌟 the repository!
 ---
-<br>
+
   </div>
