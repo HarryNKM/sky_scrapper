@@ -1,16 +1,42 @@
-# weatherapp
+<div align="center">
 
-A new Flutter project.
+<img src="./assets/feature_graphic/feature_graphic.png">
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# **Weather App**
+Simple Wather app made with Flutter in India.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## 🗒 About
+
+This is a simple app made for knowing total passed out time from your birthdate until now in the form of Years, Months and Days. You can also get upcoming or remaining time duration for your next birthday in the form of Months and Days.
+
+## ⚙️ Features
+Main features are as follows:
+Passed Time duration until now from birthdate
+Upcoming birthday time calculation
+## 📲 Screenshots
+
+<img align="left" src="https://github.com/user-attachments/assets/94d0ebc4-581a-4125-ad62-bac4fd8d205e" width="220px">
+<img align="left" src="https://github.com/user-attachments/assets/9f978939-d1f3-4044-bad1-12bb04631f88" width="220px">
+<img align="left" src="https://github.com/user-attachments/assets/8fa9306a-002f-42c7-b813-d5abb82ade67" width="220px">
+<img align="left" src="https://github.com/user-attachments/assets/a3b7ee1c-2ed4-4faa-b9c9-6dee036947ff" width="220px">
+
+
+<br><br>
+
+
+
+<div align="center">
+
+
+### Made with ❤️ in India.
+---
+### You can show some respect by starring 🌟 the repository!
+---
+</div>
