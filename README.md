@@ -14,7 +14,7 @@ Simple Wather app made with Flutter in India.
 
 ## 🗒 About
 
-<img align="left" src="https://github.com/user-attachments/assets/8fa9306a-002f-42c7-b813-d5abb82ade67" width="220px"> is a simple app made for knowing total passed out time from your birthdate until now in the form of Years, Months and Days. You can also get upcoming or remaining time duration for your next birthday in the form of Months and Days.
+This is a simple app made for knowing total passed out time from your birthdate until now in the form of Years, Months and Days. You can also get upcoming or remaining time duration for your next birthday in the form of Months and Days.
 
 ## ⚙️ Features
 Main features are as follows:
