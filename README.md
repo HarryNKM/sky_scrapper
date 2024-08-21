@@ -32,7 +32,7 @@ Upcoming birthday time calculation
 
 
 
-<div align="center">
+
 
 <p>
 ### Made with ❤️ in India.
